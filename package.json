@@ -1,0 +1,36 @@
+{
+    "name": "angular-7-communicating-between-components",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cornflourblue/angular-7-communicating-between-components.git"
+    },
+    "scripts": {
+        "build": "webpack --mode production",
+        "start": "webpack-dev-server --mode development --open"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@angular/common": "^7.0.1",
+        "@angular/compiler": "^7.0.1",
+        "@angular/core": "^7.0.1",
+        "@angular/forms": "^7.0.1",
+        "@angular/platform-browser": "^7.0.1",
+        "@angular/platform-browser-dynamic": "^7.0.1",
+        "@angular/router": "^7.0.1",
+        "core-js": "^2.5.7",
+        "rxjs": "^6.3.3",
+        "zone.js": "^0.8.26"
+    },
+    "devDependencies": {
+        "@types/node": "^10.0.4",
+        "angular2-template-loader": "^0.6.2",
+        "html-webpack-plugin": "^3.2.0",
+        "raw-loader": "^1.0.0",
+        "ts-loader": "^5.3.3",
+        "typescript": "^3.3.1",
+        "webpack": "^4.29.0",
+        "webpack-cli": "^3.2.1",
+        "webpack-dev-server": "^3.1.4"
+    }
+}
